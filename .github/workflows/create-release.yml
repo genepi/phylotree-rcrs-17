@@ -7,7 +7,7 @@ on:
 permissions:
   contents: write
 env:
-  NAME: ""   # leave empty to use the repo name, or set e.g. phylotree-fu-rcrs
+  NAME: "phylotree-rcrs"   # leave empty to use the repo name, or set e.g. phylotree-fu-rcrs
 jobs:
   build:
     runs-on: ubuntu-latest
